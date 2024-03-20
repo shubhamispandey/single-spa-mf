@@ -1,7 +1,7 @@
 {
   "name": "@jio/project",
   "scripts": {
-    "start": "webpack serve",
+    "start": "webpack serve --port 9002",
     "start:standalone": "webpack serve --env standalone --port 9002",
     "build": "concurrently npm:build:*",
     "build:webpack": "webpack --mode=production",
